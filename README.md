@@ -44,9 +44,8 @@ A highly deterministic, reproducible data pipeline for financial microstructure 
 ---
 
 ##  Contact & Connect
-*   **Email:** [Your Email Here]
-*   **Phone:** [Your Phone Number Here]
-*   **LinkedIn:** [Your LinkedIn URL Here]
-*   **Portfolio Video:** [Link to your Loom Video Here]
+*   Email: SANDEEP.MARNI@OUTLOOK.COM
+*   Phone: +91 9493136773
+  
 
 *This portfolio was built using AI-augmented workflows. The architecture, logic, and validation are 100% mine; the syntax was accelerated by AI.*
