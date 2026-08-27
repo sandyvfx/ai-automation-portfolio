@@ -28,7 +28,7 @@
 
 
 
-We benchmarked the SMAR-1 atomistic superalloy pipeline against a public 2,672-alloy
+Benchmarked the SMAR-1 atomistic superalloy pipeline against a public 2,672-alloy
 
 composition–property dataset. The central finding is a \*\*large composition-domain gap\*\*:
 
