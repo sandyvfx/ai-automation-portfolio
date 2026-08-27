@@ -65,8 +65,8 @@ LAMMPS · Python (FastAPI + NumPy/Pandas) · React + TypeScript + Recharts · AS
 
 ## 📄 Evidence
 
-- `SMAR1_Validation_Benchmark_Report.md` — full validation & domain-of-applicability report
-- `benchmark_creep_report.md` — BAM CMSX-6 reference creep benchmark output
+- **[Read the Documentation](./SMAR1_Validation_Benchmark_Report.md)** — full validation & domain-of-applicability report
+- **[Read the Documentation](./benchmark_creep_report.md)** — BAM CMSX-6 reference creep benchmark output
  
 ---
 
