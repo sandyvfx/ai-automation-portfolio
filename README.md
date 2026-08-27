@@ -33,6 +33,41 @@ A 4-layer security runtime designed to evaluate and restrict autonomous AI agent
 A highly deterministic, reproducible data pipeline for financial microstructure research. Built a 9-module ETL pipeline using Polars and DuckDB, featuring content-addressed lineage and a `--check-determinism` harness that asserts byte-level reproducibility across runs.
  **[Read the Documentation](./csge-crypto-shape-grammar-engine-phase-a.md)**
 
+### 6. 🛡️ SMAR-NI — Autonomous Ni-Based Superalloy Design & Validation Platform
+
+**Superalloy Materials Architecture & Research (SMAR)** — an end-to-end ICME
+(Integrated Computational Materials Engineering) pipeline that designs γ/γ′
+nickel-based superalloys *from industrial component requirements*, simulates
+them with molecular dynamics, and validates every prediction against public
+reference data.
+
+## 🧭 What It Does
+
+1. **Architect the Logic:** a 5-industry taxonomy (Aerospace · Space & Launch ·
+   Defense & Marine · Automotive · Power Generation) with component-family and
+   part-level requirement cards (temp window, rotating/oxidizing, life target,
+   density cap) — including *intelligent refusal* of physically unsuitable
+   applications (e.g., fan blades → Ti/CFRP, not superalloy).
+2. **Run the Physics:** LAMMPS EAM molecular dynamics with a constrained
+   thermal-shock cycling protocol; 7-mechanism Superalloy Stability Index (SSI).
+3. **Calibrate Two Channels:** TMF-life and creep-rupture laws calibrated against
+   IN718 / CMSX-4 literature anchors.
+4. **Optimize Autonomously:** closed-loop "Enhance" redesign + Cr composition
+   sweep (6–12 at%) that found the minimum Cr for oxidation compliance (6.2 at%).
+5. **Validate Honestly:** domain-of-applicability benchmark vs a 2,672-alloy
+   public dataset (correct negative result), in-domain superalloy benchmark
+   (Spearman ρ = 0.60 vs industrial service temperatures), and BAM CMSX-6
+   reference creep-data ingestion.
+
+## 🧰 Stack
+
+LAMMPS · Python (FastAPI + NumPy/Pandas) · React + TypeScript + Recharts · ASE · EAM potentials
+
+## 📄 Evidence
+
+- `SMAR1_Validation_Benchmark_Report.md` — full validation & domain-of-applicability report
+- `benchmark_creep_report.md` — BAM CMSX-6 reference creep benchmark output
+ 
 ---
 
 ## 🛠️ Technical Arsenal
